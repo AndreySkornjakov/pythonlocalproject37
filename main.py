@@ -4,14 +4,17 @@ from random import randint
 def main():
     a = [randint(1, 9) for _ in range(5)]
     b = [randint(1, 9) for _ in range(5)]
+
     c = func(a, b)
     print(f"Список {a}")
     print(f"Список {b}")
     print(f"Результат: {c}")
-    print(check_unique(c))
+
+    print(check_unique(с))
 
 
 def check_unique(lst: list) -> bool:
+
     return len(lst) == len(set(lst))
 
 
