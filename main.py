@@ -10,6 +10,8 @@ def main():
     print(f"Список {b}")
     print(f"Результат: {c}")
 
+    print(check_unique(с))
+
 
 def check_unique(lst: list) -> bool:
 
