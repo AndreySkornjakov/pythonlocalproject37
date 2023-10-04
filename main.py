@@ -11,6 +11,10 @@ def main():
     print(f"Результат: {c}")
 
 
+def check_unique(lst: list) -> bool:
+    ...
+
+
 def func(a: list, b: list) -> list:
     """"""
     c = []
