@@ -6,7 +6,9 @@ def main():
     b = [randint(1, 9) for _ in range(5)]
 
     c = func(a, b)
-    print()
+    print(f"Список {a}")
+    print(f"Список {b}")
+    print(f"Результат: {c}")
 
 
 def func(a: list, b: list) -> list:
