@@ -12,7 +12,8 @@ def main():
 
 
 def check_unique(lst: list) -> bool:
-    ...
+
+    return len(lst) == len(set(lst))
 
 
 def func(a: list, b: list) -> list:
